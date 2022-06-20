@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover,
+a:active {
+  color: #FF4081;
+}
+
+.logo-link:hover,
+.logo-link:active {
+  color: #FFFFFF;
+
+}
+
+.nav-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
