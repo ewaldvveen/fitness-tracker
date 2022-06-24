@@ -14,6 +14,7 @@ import { TrainingComponent } from './training/training.component';
 import { CurrentTrainingComponent } from './training/current-training/current-training.component';
 import { NewTrainingComponent } from './training/new-training/new-training.component';
 import { PastTrainingsComponent } from './training/past-trainings/past-trainings.component';
+import { StopTrainingComponent } from './training/stop-training/stop-training.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
@@ -27,6 +28,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     CurrentTrainingComponent,
     NewTrainingComponent,
     PastTrainingsComponent,
+    StopTrainingComponent,
     WelcomeComponent,
     HeaderComponent,
     SidenavListComponent
@@ -41,6 +43,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     MaterialModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [StopTrainingComponent]
 })
 export class AppModule { }

@@ -1,0 +1,18 @@
+<section fxLayout="column" fxLayoutAlign="center center">
+  <h1 mat-dialog-title>
+    Are you sure?
+  </h1>
+  <mat-dialog-content>
+    <p>
+      You already finished {{ passedData.progress }}% of the excercise.
+    </p>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button [mat-dialog-close]="true" mat-button>
+      Yes
+    </button>
+    <button [mat-dialog-close]="false" mat-button>
+      No
+    </button>
+  </mat-dialog-actions>
+</section>
